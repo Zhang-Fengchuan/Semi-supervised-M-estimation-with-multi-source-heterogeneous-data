@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{Estimation results under the linear working model for exm1. TIME is average running time per replicate in seconds.}
+\label{tab:linear_exm1}
+\begin{tabular}{llccccccccc}
+\toprule
+\textsc{Method} & $p$ & $n_0$ & \textsc{SE} & \textsc{SSE} & \textsc{ARE} & \textsc{BIAS} & \textsc{MSE} & \textsc{MRR} & \textsc{CP} & \textsc{TIME} \\
+\midrule
+\textsc{SUPERVISED} & 5 & 250 & 0.642 & 0.608 & 1.000 & 0.028 & 0.440 & 0.000 & 0.936 & 0.0001 \\
+\addlinespace[0.5em]
+\textsc{DRESS} & 5 & 250 & 1.037 & 0.369 & 0.466 & 0.039 & 1.197 & -1.723 & 0.552 & 0.0019 \\
+\addlinespace[0.5em]
+\textsc{PSS} & 5 & 250 & 1.031 & 0.368 & 0.470 & 0.038 & 1.181 & -1.687 & 0.554 & 0.0019 \\
+\addlinespace[0.5em]
+\textsc{PROPOSED} & 5 & 250 & 0.436 & 0.454 & 2.143 & 0.042 & 0.196 & 0.554 & 0.948 & 0.7305 \\
+\bottomrule
+\end{tabular}
+\end{table}
